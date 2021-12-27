@@ -7,7 +7,14 @@ var options = {
     'Authorization': 'Bearer ACCESS_KEY',
     'Content-Type': 'application/json'
   },
-  body: JSON.stringify({"to":["2348055372961"],"message":"Hello from Olumide Latest","sender_name":"Kuda"})
+  body: JSON.stringify({
+    "to": [
+        "2348188469520"
+    ],
+    "message": "Lorem ipsum d, no lele",
+    "sender_name": "Dash",
+    "route": "non_dnd"
+})
 
 };
 request(options, function (error, response) {
